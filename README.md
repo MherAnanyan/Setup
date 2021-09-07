@@ -4,12 +4,8 @@
 ### 2. folder structure
 ### 3. State Management
 ### 4. Navigation
-### 4. UI framework
 ### 5. Typization
 ### 6. Formating & cleanCode
-### 9. Work white Medias
-### 10. SEO
-### 11. API calls
 
 
 
@@ -95,8 +91,21 @@ Configuration for enabling dev tools for redux is done in store.js.
 
 
 # 4. Navigation
-##### npm install @reduxjs/toolkit
 - react-router-dom will avail routing and navigation capability to our React js app. It provides us with various features like widely used browser-router, hash-router, link, redirect, switch and many more.
 - React-router-dom library also provides features like maintaining history of user journeys.
+## Example  
+![This is an image](https://res.cloudinary.com/practicaldev/image/fetch/s--06jNwgUd--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://image.ibb.co/fmratU/Routing_React.png)
 
-# 4. UI framework
+### 5. Typization (typeScript)
+- TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor. Catch errors early in your editor.
+- TypeScript code converts to JavaScript which runs anywhere JavaScript runs: In a browser, on Node.js or Deno and in your apps.
+- TypeScript understands JavaScript and uses type inference to give you great tooling without additional code.
+## Example  
+![This is an image](https://tsh.io/wp-content/uploads/2021/03/why-use-typescript-items2_.png)
+
+### 6. Prettier & EsLint
+- ESLint statically analyzes your code to quickly find problems. ESLint is built into most text editors and you can run ESLint as part of your continuous integration pipeline.
+- Many problems ESLint finds can be automatically fixed. ESLint fixes are syntax-aware so you won't experience errors introduced by traditional find-and-replace algorithms.
+![This is an image](https://miro.medium.com/max/2474/1*eOkRreW6krRxzfpVVHBCyw.png)
+- Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+![This is an image](https://i.stack.imgur.com/eIekV.png)
