@@ -83,7 +83,9 @@ Configuration for enabling dev tools for redux is done in store.js.
 - This module holds our application-level styles.
 - It can include theme definition (font, colours, typography) of the app UI, and global or commonly used styles.
 
-
+## resources/icons / :
+- Functional component svg.
+- we can do it whith this command "npx @svgr/cli --out-dir src/resources/icons src/assets/icons"
 # 3. State Management
 - State management is simply a way to engender communication and sharing of data across components. It creates a concrete data structure to represent your app's State that you can read and write.
 ## Example  
