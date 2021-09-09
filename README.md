@@ -37,18 +37,6 @@ All the components should be registered and exported from /index.js for a single
 All the components should bear named export. This will avoid any conflicts.
 
 
-## /config :
-
-- the app’s configurations are to be kept at this path.
--This can consist of date format, default language, some master data set or anything like so.
-
-
-## /i18n :
-
--Internationalization or multi-lingual support is achieved by the use of the “i18next” library.
--It mainly consists of a configuration file and all the language translations in independent language.json files.
-
-
 ## /navigation or Routing :
 
 - As the name suggests, all the routing logic resides here.
@@ -58,6 +46,8 @@ All the components should bear named export. This will avoid any conflicts.
 - “PrivatRoute.js” is a component to add a check for user authentication for secure/private routes.
 - CONSTANTS.js consists of all the constants for various available routes within our app. Reason is simply to avoid typos and easy renaming of routes when required.
 - “/components” directory can be added to hold all the navigation specific components like header, nav-bar, side navbar, like so.
+## Example(RouterConfig)
+![This is an image](https://miro.medium.com/max/700/0*_YEJZi34mzdtqs-B)
 
 ## /redux or store :
 
@@ -102,12 +92,16 @@ Configuration for enabling dev tools for redux is done in store.js.
 - TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor. Catch errors early in your editor.
 - TypeScript code converts to JavaScript which runs anywhere JavaScript runs: In a browser, on Node.js or Deno and in your apps.
 - TypeScript understands JavaScript and uses type inference to give you great tooling without additional code.
+- export all declared types and interfaces , they can be reused by other modules
+- prefer interfaces
 ## Example  
 ![This is an image](https://tsh.io/wp-content/uploads/2021/03/why-use-typescript-items2_.png)
 
 ### 6. Prettier & EsLint
 - ESLint statically analyzes your code to quickly find problems. ESLint is built into most text editors and you can run ESLint as part of your continuous integration pipeline.
 - Many problems ESLint finds can be automatically fixed. ESLint fixes are syntax-aware so you won't experience errors introduced by traditional find-and-replace algorithms.
+- Make sure that your editor uses project eslint and prettier configs
+- Always format document before commit
 ![This is an image](https://miro.medium.com/max/2474/1*eOkRreW6krRxzfpVVHBCyw.png)
 - Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
 ![This is an image](https://i.stack.imgur.com/eIekV.png)
